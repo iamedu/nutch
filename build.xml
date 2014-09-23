@@ -194,6 +194,8 @@
       <packageset dir="${plugins.dir}/urlnormalizer-basic/src/java"/>
       <packageset dir="${plugins.dir}/urlnormalizer-pass/src/java"/>
       <packageset dir="${plugins.dir}/urlnormalizer-regex/src/java"/>
+      <packageset dir="${plugins.dir}/whitelist-filter/src/java"/>
+      <packageset dir="${plugins.dir}/raw-html-filters/src/java"/>
       
       <link href="${javadoc.link.java}"/>
       <link href="${javadoc.link.lucene}"/>

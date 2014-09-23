@@ -70,7 +70,8 @@
 		<dependency org="org.mortbay.jetty" name="jetty-client"
 			rev="6.1.22" />
 
-		<dependency org="log4j" name="log4j" rev="1.2.15" conf="*->master" />
+		<dependency org="log4j" name="log4j" rev="1.2.15" />
+		<dependency org="org.jsoup" name="jsoup" rev="1.7.3" />
 
 		<dependency org="xerces" name="xercesImpl" rev="2.9.1" />
 		<dependency org="xerces" name="xmlParserAPIs" rev="2.6.2" />

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<plugin id="raw-html"
+  name="Html ParseFilter plugin to leave raw html"
+  version="1.0.0"
+  provider-name="predictivtechnologies.org">
+
+  <runtime>
+    <library name="raw-html-filter-1.0-SNAPSHOT.jar">
+      <export name="*"/>
+    </library>
+  </runtime>
+
+
+  <requires>
+    <import plugin="nutch-extensionpoints"/>
+  </requires>
+
+  <extension id="org.apache.nutch.parse.rawcontent"
+    name="Html ParseFilter plugin to NOT strip HTML tags and store HTML as-is"
+    point="org.apache.nutch.parse.HtmlParseFilter">
+    <implementation id="RawHtmlFilter"
+      class="com.predictive.nutch.RawHtmlFilter"/>
+  </extension>
+</plugin>
