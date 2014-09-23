@@ -22,7 +22,7 @@
    provider-name="Predictive">
 
    <runtime>
-      <library name="whitelist-filter-1.0-SNAPSHOT.jar">
+      <library name="whitelist-filter.jar">
          <export name="*"/>
       </library>
    </runtime>
